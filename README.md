@@ -8,7 +8,8 @@ Driver package for controlled environment agriculture sensors
     git clone https://github.com/mlab-upenn/cea-os-sensors.git
     ```
 # Usage
-1. Run the drivers for the sensors connected to the Raspberry Pi
+1. Start containers for cea-os main package https://github.com/mlab-upenn/cea-os
+2. Run the drivers for the sensors connected to the Raspberry Pi
 
     ```sh
     chmod 755 {launcher_name}.sh
@@ -16,5 +17,5 @@ Driver package for controlled environment agriculture sensors
     ```
 OR
 
-1. Create a crontab that runs the launcher scripts on boot 
+2. Create a crontab that runs the launcher scripts on boot 
 (example here: https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/)
