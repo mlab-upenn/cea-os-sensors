@@ -9,6 +9,8 @@ Driver package for controlled environment agriculture sensors
     ```
 # Usage
 1. Run the drivers for the sensors connected to the Raspberry Pi
+
     ```sh
-    sh launcher.sh
+    chmod 755 {launcher_name}.sh
+    sh {launcher_name}.sh
     ```
