@@ -8,7 +8,7 @@ Driver package for controlled environment agriculture sensors
     git clone https://github.com/mlab-upenn/cea-os-sensors.git
     ```
 # Usage
-1. Start containers for cea-os main package https://github.com/mlab-upenn/cea-os
+1. Start containers for cea-os main package: https://github.com/mlab-upenn/cea-os
 2. Run the drivers for the sensors connected to the Raspberry Pi
 
     ```sh
