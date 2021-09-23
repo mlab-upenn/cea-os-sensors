@@ -12,5 +12,8 @@ Driver package for controlled environment agriculture sensors
 
     ```sh
     chmod 755 {launcher_name}.sh
-    sh {launcher_name}.sh
+    sh {launcher_name}.sh &
     ```
+OR
+
+1. Create a crontab that runs the launcher scripts on boot (example here: https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/)
